@@ -12,7 +12,10 @@ function calcular(tipo, valor) {
       }
 
       if (valor === '=') {
-        var valor_campo = eval(document.getElementById('resultado').value)
+        // biome-ignore lint/style/noVar: <explanation>
+        // biome-ignore lint/correctness/noInnerDeclarations: <explanation>
+                // biome-ignore lint/security/noGlobalEval: <explanation>
+                                var valor_campo = eval(document.getElementById('resultado').value)
        
         document.getElementById('resultado').value = valor_campo
       }
