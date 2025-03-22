@@ -9,9 +9,8 @@
 </div>
 <br>
 <div align="center">
-    
-  ![Calculadora Preview](./public/assets/image/calculadora.png)
 
+   ![Calculadora Preview](./public/assets/image/calculadora.png)
 </div>  
 
 
